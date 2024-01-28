@@ -29,14 +29,14 @@
       url: 'https://github.com/pheralb/svgl?tab=readme-ov-file#-extensions',
       icon: ArrowUpRight,
       external: true,
-      label: "Go to the SVGL's extensions section"
+      label: 'Go to the SVGL extensions section'
     },
     {
       name: 'Submit logo',
       url: 'https://github.com/pheralb/svgl#-getting-started',
       icon: ArrowUpRight,
       external: true,
-      label: "Submit logo and go to the SVGL's getting started section"
+      label: 'Submit logo and go to the SVGL getting started section'
     }
   ];
 </script>
@@ -50,7 +50,7 @@
   )}
 >
   <div class="flex items-center justify-between mx-auto">
-    <div class="flex items-center space-x-2">      
+    <div class="flex items-center space-x-2">
       <a href="/" aria-label="Go to the SVGL v4.0 home page">
         <div class="flex items-center space-x-2 hover:opacity-80 transition-opacity">
           <svelte:component this={Logo} />
